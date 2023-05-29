@@ -1,0 +1,127 @@
+* {
+  font-family: "Gruppo", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 1rem;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.line {
+  margin-top: 2%;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  gap: 15px;
+}
+
+.add-form > input {
+  width: 80%;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.btn-link {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.link {
+  outline: none;
+}
+
+/* todo list */
+.todo-list {
+  text-align: center;
+}
+
+.todo-list > h1 {
+  margin: 2rem 0 2rem 0;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card > p {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.card .btn-link {
+  margin-bottom: 20px;
+}
+
+.todo-details {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.text {
+  width: 50%;
+  text-align: center;
+}
+
+.todo-details > input {
+  width: 30%;
+  height: 30px;
+  color: black;
+}
+
+/* input descr  */
+/* .edit-inp {
+  height: 200px !important ;
+}
+
+.edit-inp::placeholder {
+  padding-top: 1000px;
+} */
+
+.task-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
