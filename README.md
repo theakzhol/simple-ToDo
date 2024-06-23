@@ -22,7 +22,7 @@ Welcome to the Todo List Application! This project is a simple yet powerful tool
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/todo-list.git
+    git clone https://github.com/theakzhol/simple-ToDo.git
     cd todo-list
     ```
 
@@ -55,32 +55,21 @@ Welcome to the Todo List Application! This project is a simple yet powerful tool
 ## 🗂️ Project Structure
 
 ```
-todo-list/
+simple-ToDo/
 ├── public/
 │   ├── index.html
-│   └── ...
 ├── src/
 │   ├── components/
-│   │   ├── AddTask.js
-│   │   ├── EditTask.js
-│   │   ├── TaskList.js
-│   │   └── ...
+│   │   ├── AddTask.jsx
+│   │   ├── EditTask.jsx
+│   │   ├── TaskList.jsx
+│   │   └── DetailTask.jsx
 │   ├── App.js
 │   ├── index.js
 │   ├── App.css
-│   └── ...
 ├── db.json
 ├── package.json
-└── ...
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or suggestions.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## ✨ Acknowledgments
 
